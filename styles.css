@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.conteiner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1440px;;
+    height: 100vh;
+    background: #2E4158;
+}
+.click {
+    background: linear-gradient(180deg, #FF8DF4 0%, #9640DA 100%);
+    border: 5px solid #000000;
+    border-radius: 20px;
+    font-size: 40px;
+    color: #FFFFFF;
+    width: 431px;
+    height: 155px;
+}
+.click:active {
+    transform: scale(0.98);
+}
+.click:hover {
+    box-shadow: 0px 0px 80px #9640DA;
+}
