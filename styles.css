@@ -26,3 +26,8 @@
 .click:hover {
     box-shadow: 0px 0px 80px #9640DA;
 }
+a {
+    font-size: 40px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
